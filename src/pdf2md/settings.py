@@ -7,9 +7,9 @@ class Settings(BaseSettings):
     """应用配置"""
 
     # 路径配置
-    SOURCE_DIR: str = "../"  # 源目录（PDF所在）
+    SOURCE_DIR: str = "./"  # 源目录（PDF所在）
     OUTPUT_DIR: str = "./output"  # 输出目录
-    EXCLUDE_DIRS: list[str] = ["codes", ".git"]
+    EXCLUDE_DIRS: list[str] = [".git", ".venv", "__pycache__", "node_modules"]
 
     # Ollama配置
     OLLAMA_HOST: str = "http://localhost:11434"

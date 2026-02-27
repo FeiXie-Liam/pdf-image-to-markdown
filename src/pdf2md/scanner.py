@@ -7,7 +7,7 @@ from typing import Optional
 from rich.console import Console
 from rich.tree import Tree
 
-from config.settings import settings
+from pdf2md.settings import settings
 
 console = Console()
 

@@ -8,7 +8,7 @@ from typing import Optional
 from rich.console import Console
 from rich.table import Table
 
-from config.settings import settings
+from pdf2md.settings import settings
 
 console = Console()
 

@@ -10,7 +10,7 @@ import ollama
 from rich.console import Console
 from rich.progress import BarColumn, Progress, TextColumn, TimeElapsedColumn
 
-from config.settings import settings
+from pdf2md.settings import settings
 
 console = Console()
 
@@ -98,7 +98,7 @@ class Converter:
                         print(text, end="", flush=True)
                         full_response.append(text)
                 print()  # 换行
-                console.print("[bold cyan]━━━ 第{page_num}页 完成 ━━━[/bold cyan]\n")
+                console.print(f"[bold cyan]━━━ 第{page_num}页 完成 ━━━[/bold cyan]\n")
                 return "".join(full_response)
             else:
                 # 非流式模式

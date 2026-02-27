@@ -1,0 +1,665 @@
+{
+  "name": "哥飞教程",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".claude",
+      "type": "directory",
+      "children": []
+    },
+    {
+      "name": "adsense",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 005 - Adsense账号注册、审核、网站审核的一点经验分享.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 005 - Adsense账号注册、审核、网站审核的一点经验分享.pdf"
+        },
+        {
+          "name": "FireShot Capture 006 - Adsense如何收取Pin码，如何上传文件进行实名实地认证.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 006 - Adsense如何收取Pin码，如何上传文件进行实名实地认证.pdf"
+        },
+        {
+          "name": "FireShot Capture 007 - 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享 - Web.Cafe_ - new.web.cafe.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 007 - 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享 - Web.Cafe_ - new.web.cafe.pdf"
+        },
+        {
+          "name": "FireShot Capture 008 - 如何快速估算一个网站的Adsense广告收入？.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 008 - 如何快速估算一个网站的Adsense广告收入？.pdf"
+        },
+        {
+          "name": "FireShot Capture 009 - 从一个AI工具站最近7天Adsense不同国家收入数据分析对比告诉你为什么要出海.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 009 - 从一个AI工具站最近7天Adsense不同国家收入数据分析对比告诉你为什么要出海.pdf"
+        },
+        {
+          "name": "FireShot Capture 010 - 哥飞解读：Adsense 生态是谷歌的胜利.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 010 - 哥飞解读：Adsense 生态是谷歌的胜利.pdf"
+        },
+        {
+          "name": "FireShot Capture 011 - 【哥飞探案】Adsense 广告单价跌了吗？.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 011 - 【哥飞探案】Adsense 广告单价跌了吗？.pdf"
+        },
+        {
+          "name": "FireShot Capture 116 - Google Adsense 提高收入小技巧.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 116 - Google Adsense 提高收入小技巧.pdf"
+        },
+        {
+          "name": "FireShot Capture 122 - 新站申请 Adsense 的小技巧.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 122 - 新站申请 Adsense 的小技巧.pdf"
+        },
+        {
+          "name": "FireShot Capture 123 - 建议每个新站都开启Adsense实验【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "adsense/FireShot Capture 123 - 建议每个新站都开启Adsense实验【公众号：CunWorkNotes】.pdf"
+        }
+      ]
+    },
+    {
+      "name": "养网站防老",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 014 - 养网站防老：网站可以做成一生的事业.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 014 - 养网站防老：网站可以做成一生的事业.pdf"
+        },
+        {
+          "name": "FireShot Capture 015 - 养网站防老第0步：如果你没有编程基础，如果你不会前端开发，那么推荐跟着这个免费视频教程学习.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 015 - 养网站防老第0步：如果你没有编程基础，如果你不会前端开发，那么推荐跟着这个免费视频教程学习.pdf"
+        },
+        {
+          "name": "FireShot Capture 016 - 养网站防老第1步，挖掘出第1个需求【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 016 - 养网站防老第1步，挖掘出第1个需求【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 017 - 养网站防老第1.5步：用一个公式来判断关键词是否值得做，让你选择关键词不再犹豫.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 017 - 养网站防老第1.5步：用一个公式来判断关键词是否值得做，让你选择关键词不再犹豫.pdf"
+        },
+        {
+          "name": "FireShot Capture 018 - 养网站防老第2步：分析搜索意图【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 018 - 养网站防老第2步：分析搜索意图【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 019 - 养网站防老第3步：根据搜索意图使用ChatGPT的GPT4生成网页【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 019 - 养网站防老第3步：根据搜索意图使用ChatGPT的GPT4生成网页【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 020 - 养网站防老第4步：手动调整布局和样式【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 020 - 养网站防老第4步：手动调整布局和样式【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 021 - 养网站防老第5步：内页和内链建设.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 021 - 养网站防老第5步：内页和内链建设.pdf"
+        },
+        {
+          "name": "FireShot Capture 022 - 【6000字详解】养网站防老第6步：利用ChatGPT给网站增加多语言支持.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 022 - 【6000字详解】养网站防老第6步：利用ChatGPT给网站增加多语言支持.pdf"
+        },
+        {
+          "name": "FireShot Capture 023 - 养网站防老第7步：注册域名，解析域名，部署上线.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 023 - 养网站防老第7步：注册域名，解析域名，部署上线.pdf"
+        },
+        {
+          "name": "FireShot Capture 024 - 养网站防老第8步：添加统计代码，提交到 Google Search Console，增加外链，等待被收录 - Web.Cafe_ - new.web.cafe【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 024 - 养网站防老第8步：添加统计代码，提交到 Google Search Console，增加外链，等待被收录 - Web.Cafe_ - new.web.cafe【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 025 - 养网站防老第9步：谷歌对于AI生成内容的态度及如何让AI生成高质量内容.pdf",
+          "type": "file",
+          "path": "养网站防老/FireShot Capture 025 - 养网站防老第9步：谷歌对于AI生成内容的态度及如何让AI生成高质量内容.pdf"
+        }
+      ]
+    },
+    {
+      "name": "哥飞小课堂",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 069 - 一个实际案例告诉你，解决用户需求，并不一定要自己开发工具，也可以先上内容页面.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 069 - 一个实际案例告诉你，解决用户需求，并不一定要自己开发工具，也可以先上内容页面.pdf"
+        },
+        {
+          "name": "FireShot Capture 070 - 用户协议、隐私政策生成器居然很赚钱【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 070 - 用户协议、隐私政策生成器居然很赚钱【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 071 - 可以开始考虑每天搜索量10万以内，KD50到70的关键词了【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 071 - 可以开始考虑每天搜索量10万以内，KD50到70的关键词了【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 072 - 一个神奇的网站 【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 072 - 一个神奇的网站 【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 073 - 一些大家目前用得上的广告指标.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 073 - 一些大家目前用得上的广告指标.pdf"
+        },
+        {
+          "name": "FireShot Capture 074 - 如何通过正在投广告的产品帮助我们发现需求，分析需求价值.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 074 - 如何通过正在投广告的产品帮助我们发现需求，分析需求价值.pdf"
+        },
+        {
+          "name": "FireShot Capture 075 - 用几个案例来讲解程序化SEO生成海量页面获取流量的方式.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 075 - 用几个案例来讲解程序化SEO生成海量页面获取流量的方式.pdf"
+        },
+        {
+          "name": "FireShot Capture 076 - 一句话告诉大家，游戏站怎么找新词新游戏.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 076 - 一句话告诉大家，游戏站怎么找新词新游戏.pdf"
+        },
+        {
+          "name": "FireShot Capture 077 - MRR $15k 的在线倒计时网站分析【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 077 - MRR $15k 的在线倒计时网站分析【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 078 - 哥飞解答：为什么有些关键词流量巨大但Ahrefs查询出来的KD很低.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 078 - 哥飞解答：为什么有些关键词流量巨大但Ahrefs查询出来的KD很低.pdf"
+        },
+        {
+          "name": "FireShot Capture 079 - 如何通过谷歌趋势推断一个关键词搜索量【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 079 - 如何通过谷歌趋势推断一个关键词搜索量【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 098 - 哥飞小课堂24.10.25 外链小课堂【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 098 - 哥飞小课堂24.10.25 外链小课堂【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 099 - 哥飞小课堂24.10.23 游戏站相关分享【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 099 - 哥飞小课堂24.10.23 游戏站相关分享【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 104 - 草台班子改变世界：我眼中的AI产品方法论【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 104 - 草台班子改变世界：我眼中的AI产品方法论【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 111 - 关于AI与SEO的答记者问.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 111 - 关于AI与SEO的答记者问.pdf"
+        },
+        {
+          "name": "FireShot Capture 112 - 再聊多语言：为什么不建议使用子域名而更建议使用子目录【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 112 - 再聊多语言：为什么不建议使用子域名而更建议使用子目录【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 121 - 哥飞的快速上站SOP(手动版)【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 121 - 哥飞的快速上站SOP(手动版)【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 125 - 跟着 Canva 学SEO之 URL 规划和大小关键词覆盖.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 125 - 跟着 Canva 学SEO之 URL 规划和大小关键词覆盖.pdf"
+        },
+        {
+          "name": "FireShot Capture 126 - 简单总结谷歌排名到底怎么回事.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/FireShot Capture 126 - 简单总结谷歌排名到底怎么回事.pdf"
+        },
+        {
+          "name": "被GSC提示备用网页即有适当的规范标记不用担心.pdf",
+          "type": "file",
+          "path": "哥飞小课堂/被GSC提示备用网页即有适当的规范标记不用担心.pdf"
+        }
+      ]
+    },
+    {
+      "name": "挖掘需求",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 034 - 通过查看 vercel.app 的子域名发现新需求【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 034 - 通过查看 vercel.app 的子域名发现新需求【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 035 - 人人都能学会的发掘 web 产品需求方法入门.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 035 - 人人都能学会的发掘 web 产品需求方法入门.pdf"
+        },
+        {
+          "name": "FireShot Capture 036 - 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 036 - 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品.pdf"
+        },
+        {
+          "name": "FireShot Capture 037 - 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 037 - 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家.pdf"
+        },
+        {
+          "name": "FireShot Capture 038 - 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 038 - 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 039 - 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 039 - 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会.pdf"
+        },
+        {
+          "name": "FireShot Capture 040 - 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App - Web.Ca_ - new.web.cafe【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 040 - 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App - Web.Ca_ - new.web.cafe【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 041 - 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 041 - 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 042 - 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万 - We_ - new.web.cafe【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 042 - 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万 - We_ - new.web.cafe【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 043 - 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 043 - 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词.pdf"
+        },
+        {
+          "name": "FireShot Capture 044 - 对于我们来说，尽快多赚点美元可能是最适合我们的方案。【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 044 - 对于我们来说，尽快多赚点美元可能是最适合我们的方案。【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 045 - 哥飞解读：年收入1400万美元的一人公司为何这么赚？.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 045 - 哥飞解读：年收入1400万美元的一人公司为何这么赚？.pdf"
+        },
+        {
+          "name": "FireShot Capture 046 - 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 046 - 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 047 - 与纯银探讨再聊我们为什么要出海赚美元【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 047 - 与纯银探讨再聊我们为什么要出海赚美元【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 048 - 为何这个年收入130万美元的网站每月只有六万多访问量？.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 048 - 为何这个年收入130万美元的网站每月只有六万多访问量？.pdf"
+        },
+        {
+          "name": "FireShot Capture 049 - 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 049 - 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 050 - 上站，上站，朋友们请上站！想要赚美元就多上站！【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 050 - 上站，上站，朋友们请上站！想要赚美元就多上站！【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 090 - indie hacker 中产品库里提取出的通用关键词需求.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 090 - indie hacker 中产品库里提取出的通用关键词需求.pdf"
+        },
+        {
+          "name": "FireShot Capture 091 - 基于toolify 10月收入榜单（200~520名词）非品牌关键词整理.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 091 - 基于toolify 10月收入榜单（200~520名词）非品牌关键词整理.pdf"
+        },
+        {
+          "name": "FireShot Capture 092 - 基于toolify 10月收入榜单（200~520名词）非品牌关键词整理.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 092 - 基于toolify 10月收入榜单（200~520名词）非品牌关键词整理.pdf"
+        },
+        {
+          "name": "FireShot Capture 101 - 数据挖掘选品综合帖【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 101 - 数据挖掘选品综合帖【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 109 - toolify每月流量的进一步挖掘，找出新词新机会.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 109 - toolify每月流量的进一步挖掘，找出新词新机会.pdf"
+        },
+        {
+          "name": "FireShot Capture 110 - Stripe 入站流量的进一步挖掘，找出新词新机会【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "挖掘需求/FireShot Capture 110 - Stripe 入站流量的进一步挖掘，找出新词新机会【公众号：CunWorkNotes】.pdf"
+        }
+      ]
+    },
+    {
+      "name": "新手入门",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 051 - 出海工具网站，从需求挖掘到网站制作全流程，让你一篇文章学会.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 051 - 出海工具网站，从需求挖掘到网站制作全流程，让你一篇文章学会.pdf"
+        },
+        {
+          "name": "FireShot Capture 052 - 如何用GPT生成SEO友好的网页Title和Description.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 052 - 如何用GPT生成SEO友好的网页Title和Description.pdf"
+        },
+        {
+          "name": "FireShot Capture 053 - 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享 - Web.Cafe_ - new.web.cafe【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 053 - 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享 - Web.Cafe_ - new.web.cafe【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 054 - 有了这几个关键字优化难度分析工具，妈妈再也不怕我不会判断SEO难度了【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 054 - 有了这几个关键字优化难度分析工具，妈妈再也不怕我不会判断SEO难度了【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 055 - 如何用AI做SEO之内容自动批量生成，从搜索引擎获取免费流量【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 055 - 如何用AI做SEO之内容自动批量生成，从搜索引擎获取免费流量【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 056 - 如何给一个已经上线的网站出SEO改造建议.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 056 - 如何给一个已经上线的网站出SEO改造建议.pdf"
+        },
+        {
+          "name": "FireShot Capture 057 - 月访问量八百万的在线自动化工具站如何用内容做SEO获取大量优质免费流量？【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 057 - 月访问量八百万的在线自动化工具站如何用内容做SEO获取大量优质免费流量？【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 058 - 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（上）.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 058 - 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（上）.pdf"
+        },
+        {
+          "name": "FireShot Capture 059 - 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（下）.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 059 - 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（下）.pdf"
+        },
+        {
+          "name": "FireShot Capture 060 - 【哥飞带你读】你需要了解的10个重要SEO元标签（上）.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 060 - 【哥飞带你读】你需要了解的10个重要SEO元标签（上）.pdf"
+        },
+        {
+          "name": "FireShot Capture 061 - 【哥飞带你读】你需要了解的10个重要SEO元标签（中）【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 061 - 【哥飞带你读】你需要了解的10个重要SEO元标签（中）【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 062 - 【哥飞带你读】你需要了解的10个重要SEO元标签（下）.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 062 - 【哥飞带你读】你需要了解的10个重要SEO元标签（下）.pdf"
+        },
+        {
+          "name": "FireShot Capture 063 - 推荐一款好用且免费的SEO插件，哥飞天天都在用【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 063 - 推荐一款好用且免费的SEO插件，哥飞天天都在用【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 064 - 【哥飞评站】AI贴纸生成网站 StickerBaker 的SEO评测报告和改进建议（4000字）.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 064 - 【哥飞评站】AI贴纸生成网站 StickerBaker 的SEO评测报告和改进建议（4000字）.pdf"
+        },
+        {
+          "name": "FireShot Capture 065 - 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 065 - 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？.pdf"
+        },
+        {
+          "name": "FireShot Capture 066 - 【哥飞解读】2024年谷歌算法排名因素变化.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 066 - 【哥飞解读】2024年谷歌算法排名因素变化.pdf"
+        },
+        {
+          "name": "FireShot Capture 067 - 【哥飞带你读】Ahrefs研究：网页从上线开始算起拿到排名需要多久时间.pdf",
+          "type": "file",
+          "path": "新手入门/FireShot Capture 067 - 【哥飞带你读】Ahrefs研究：网页从上线开始算起拿到排名需要多久时间.pdf"
+        }
+      ]
+    },
+    {
+      "name": "案例分析",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 013 - 月访问量40万的SEO游戏站分析【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "案例分析/FireShot Capture 013 - 月访问量40万的SEO游戏站分析【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 068 - 【陈攀 Span】Al SaaS 出海 SEO_ 那些最有效的网站页面策略.pdf",
+          "type": "file",
+          "path": "案例分析/FireShot Capture 068 - 【陈攀 Span】Al SaaS 出海 SEO_ 那些最有效的网站页面策略.pdf"
+        }
+      ]
+    },
+    {
+      "name": "经验",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 093 - 10月新词新站经验分享 - 结果【公众号：CunWorkNotes】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 093 - 10月新词新站经验分享 - 结果【公众号：CunWorkNotes】.pdf"
+        },
+        {
+          "name": "FireShot Capture 094 - 10月新词新站经验分享 - blank.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 094 - 10月新词新站经验分享 - blank.pdf"
+        },
+        {
+          "name": "FireShot Capture 095 - 10月新词新站经验分享.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 095 - 10月新词新站经验分享.pdf"
+        },
+        {
+          "name": "FireShot Capture 096 - 10月新词新站经验分享 - Xi5h1r【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 096 - 10月新词新站经验分享 - Xi5h1r【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 097 - 10月信奉新词新站经验分享【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 097 - 10月信奉新词新站经验分享【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 102 - 广告费日入百刀的实战经验.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 102 - 广告费日入百刀的实战经验.pdf"
+        },
+        {
+          "name": "FireShot Capture 103 - Scratch游戏站 带宽成本优化(R2+CDN).pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 103 - Scratch游戏站 带宽成本优化(R2+CDN).pdf"
+        },
+        {
+          "name": "FireShot Capture 106 - 八月新词新站经验分享.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 106 - 八月新词新站经验分享.pdf"
+        },
+        {
+          "name": "FireShot Capture 107 - 九月新词新站经验分享 - Lucas小杨.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 107 - 九月新词新站经验分享 - Lucas小杨.pdf"
+        },
+        {
+          "name": "FireShot Capture 108 - 九月新词新站经验分享.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 108 - 九月新词新站经验分享.pdf"
+        },
+        {
+          "name": "FireShot Capture 114 - 去除文章 AI 味的一个办法.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 114 - 去除文章 AI 味的一个办法.pdf"
+        },
+        {
+          "name": "FireShot Capture 115 - 谷歌搜索结果中的 SEO 信息.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 115 - 谷歌搜索结果中的 SEO 信息.pdf"
+        },
+        {
+          "name": "FireShot Capture 117 - Cloudflare Pages 部署项目坑点之 404.html.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 117 - Cloudflare Pages 部署项目坑点之 404.html.pdf"
+        },
+        {
+          "name": "FireShot Capture 118 - 合理利用谷歌趋势双引号用法区分关键词真实搜索量【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 118 - 合理利用谷歌趋势双引号用法区分关键词真实搜索量【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 119 - 一个SEO友好的页面，单词数量应该不小于600个【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 119 - 一个SEO友好的页面，单词数量应该不小于600个【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 120 - 新站上线前一定要检查好 On-Page SEO 有没有做好.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 120 - 新站上线前一定要检查好 On-Page SEO 有没有做好.pdf"
+        },
+        {
+          "name": "FireShot Capture 124 - 部署在 Vercel 上的项目如何接入支付.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 124 - 部署在 Vercel 上的项目如何接入支付.pdf"
+        },
+        {
+          "name": "FireShot Capture 127 - 哥飞常用的 Bookmarklet 书签栏小工具【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 127 - 哥飞常用的 Bookmarklet 书签栏小工具【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 128 - 导航站刚需获取任意网站 ICON 图片的方法【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 128 - 导航站刚需获取任意网站 ICON 图片的方法【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 130 - SaaS 产品落地页灵感库和功能页灵感库.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 130 - SaaS 产品落地页灵感库和功能页灵感库.pdf"
+        },
+        {
+          "name": "FireShot Capture 131 - 如何10分钟配置一个网站支持邮箱？.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 131 - 如何10分钟配置一个网站支持邮箱？.pdf"
+        },
+        {
+          "name": "FireShot Capture 132 - 一键生成网站Favicon及多尺寸图标图片工具【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 132 - 一键生成网站Favicon及多尺寸图标图片工具【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 135 - 分享：那些最有效的页面策略 - Gamma - gamma.app【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "经验/FireShot Capture 135 - 分享：那些最有效的页面策略 - Gamma - gamma.app【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "Windsurf技巧，AI编程的通用.pdf",
+          "type": "file",
+          "path": "经验/Windsurf技巧，AI编程的通用.pdf"
+        }
+      ]
+    },
+    {
+      "name": "进阶教程",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 026 - 谷歌SEO三字经（注解版）【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 026 - 谷歌SEO三字经（注解版）【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 027 - 【5000字长文】海外工具从需求挖掘到网站制作全流程让你一篇文章学会.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 027 - 【5000字长文】海外工具从需求挖掘到网站制作全流程让你一篇文章学会.pdf"
+        },
+        {
+          "name": "FireShot Capture 028 - 【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 028 - 【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白.pdf"
+        },
+        {
+          "name": "FireShot Capture 029 - 新手怎么做好出海第一站？【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 029 - 新手怎么做好出海第一站？【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 030 - 关于AI领域的洞见和实战方法论.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 030 - 关于AI领域的洞见和实战方法论.pdf"
+        },
+        {
+          "name": "FireShot Capture 031 - 如何使用谷歌趋势找新词，如何判断一个关键词是新词【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 031 - 如何使用谷歌趋势找新词，如何判断一个关键词是新词【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 032 - 再聊内链和内页，以及如何做好一个内容型工具站【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 032 - 再聊内链和内页，以及如何做好一个内容型工具站【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 033 - 再聊挖掘需求的方法.pdf",
+          "type": "file",
+          "path": "进阶教程/FireShot Capture 033 - 再聊挖掘需求的方法.pdf"
+        }
+      ]
+    },
+    {
+      "name": "高手分享",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FireShot Capture 068 - 【陈攀 Span】Al SaaS 出海 SEO_ 那些最有效的网站页面策略【耗时整理‖免费分享：cunlove.cn】.pdf",
+          "type": "file",
+          "path": "高手分享/FireShot Capture 068 - 【陈攀 Span】Al SaaS 出海 SEO_ 那些最有效的网站页面策略【耗时整理‖免费分享：cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 086 - Morse Code工具站经验分享-奥赛.pdf",
+          "type": "file",
+          "path": "高手分享/FireShot Capture 086 - Morse Code工具站经验分享-奥赛.pdf"
+        },
+        {
+          "name": "FireShot Capture 088 - 价值 $199 的导航站提交合集【耗时整理‖cunlove.cn】.pdf",
+          "type": "file",
+          "path": "高手分享/FireShot Capture 088 - 价值 $199 的导航站提交合集【耗时整理‖cunlove.cn】.pdf"
+        },
+        {
+          "name": "FireShot Capture 136 - 使用 Windsurf 创建 Sprunki 游戏落地页（HTML）.pdf",
+          "type": "file",
+          "path": "高手分享/FireShot Capture 136 - 使用 Windsurf 创建 Sprunki 游戏落地页（HTML）.pdf"
+        }
+      ]
+    }
+  ]
+}

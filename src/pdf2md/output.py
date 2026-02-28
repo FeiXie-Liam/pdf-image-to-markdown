@@ -16,9 +16,9 @@ console = Console()
 class OutputManager:
     """输出管理器"""
 
-    def __init__(self, output_dir: Optional[str] = None):
+    def __init__(self, output_dir: Optional[str] = None, source_dir: Optional[str] = None):
         self.output_dir = Path(output_dir or settings.OUTPUT_DIR).resolve()
-        self.source_dir = Path(settings.SOURCE_DIR).resolve()
+        self.source_dir = Path(source_dir or settings.SOURCE_DIR).resolve()
         self.process_log: dict[str, dict] = {}
 
     def create_output_structure(self, relative_path: Path) -> Path:

@@ -17,6 +17,10 @@ from pdf2md.settings import settings
 app = typer.Typer(help="PDF文档转Markdown自动化工具")
 console = Console()
 
+# 全局目录配置（通过callback设置）
+_global_source_dir: str = "."
+_global_output_dir: str = "./output"
+
 
 def version_callback(value: bool):
     if value:
@@ -24,20 +28,33 @@ def version_callback(value: bool):
         raise typer.Exit()
 
 
+def dir_callback(input_dir: str, output_dir: str):
+    """处理全局目录参数"""
+    global _global_source_dir, _global_output_dir
+    _global_source_dir = input_dir
+    _global_output_dir = output_dir
+
+
 @app.callback()
 def main(
     version: bool = typer.Option(
         False, "--version", "-v", callback=version_callback, help="显示版本号"
     ),
+    input_dir: str = typer.Option(
+        ".", "-i", "--input", help="输入目录（PDF所在目录）", envvar="SOURCE_DIR"
+    ),
+    output_dir: str = typer.Option(
+        "./output", "-o", "--output", help="输出目录", envvar="OUTPUT_DIR"
+    ),
 ):
     """PDF文档转Markdown自动化工具"""
-    pass
+    dir_callback(input_dir, output_dir)
 
 
 @app.command()
 def scan():
     """扫描目录结构并保存"""
-    scanner = Scanner()
+    scanner = Scanner(source_dir=_global_source_dir, output_dir=_global_output_dir)
 
     console.print("[bold blue]扫描目录结构...[/bold blue]")
     structure = scanner.scan_directory()
@@ -56,13 +73,13 @@ def scan():
 @app.command()
 def convert(
     pdf_path: str = typer.Argument(..., help="PDF文件相对路径"),
-    output: str = typer.Option(None, "-o", "--output", help="输出文件路径"),
+    output_file: str = typer.Option(None, "-f", "--file", help="输出文件路径（默认按目录结构输出）"),
     debug: bool = typer.Option(False, "-d", "--debug", help="Debug模式：实时流式输出模型响应"),
 ):
     """转换单个PDF文件"""
-    scanner = Scanner()
+    scanner = Scanner(source_dir=_global_source_dir, output_dir=_global_output_dir)
     converter = Converter()
-    output_manager = OutputManager()
+    output_manager = OutputManager(output_dir=_global_output_dir, source_dir=_global_source_dir)
 
     # 检查Ollama连接
     if not converter.check_connection():
@@ -87,8 +104,8 @@ def convert(
         raise typer.Exit(1)
 
     # 确定输出路径
-    if output:
-        output_path = Path(output)
+    if output_file:
+        output_path = Path(output_file)
     else:
         output_path = output_manager.create_output_structure(relative)
 
@@ -106,9 +123,9 @@ def convert_all(
     debug: bool = typer.Option(False, "-d", "--debug", help="Debug模式：实时流式输出模型响应（自动使用单线程）"),
 ):
     """批量转换所有PDF文件"""
-    scanner = Scanner()
+    scanner = Scanner(source_dir=_global_source_dir, output_dir=_global_output_dir)
     converter = Converter()
-    output_manager = OutputManager()
+    output_manager = OutputManager(output_dir=_global_output_dir, source_dir=_global_source_dir)
 
     # debug模式强制使用单线程，避免输出混乱
     if debug:
@@ -189,8 +206,8 @@ def convert_all(
 @app.command()
 def index():
     """生成索引文件"""
-    scanner = Scanner()
-    output_manager = OutputManager()
+    scanner = Scanner(source_dir=_global_source_dir, output_dir=_global_output_dir)
+    output_manager = OutputManager(output_dir=_global_output_dir, source_dir=_global_source_dir)
 
     pdf_files = scanner.get_pdf_list()
     if not pdf_files:
@@ -210,8 +227,8 @@ def check():
 @app.command()
 def stats():
     """显示统计信息"""
-    scanner = Scanner()
-    output_manager = OutputManager()
+    scanner = Scanner(source_dir=_global_source_dir, output_dir=_global_output_dir)
+    output_manager = OutputManager(output_dir=_global_output_dir, source_dir=_global_source_dir)
 
     # 扫描统计
     scan_stats = scanner.get_stats()

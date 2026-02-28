@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     """应用配置"""
 
     # 路径配置
-    SOURCE_DIR: str = "./"  # 源目录（PDF所在）
+    SOURCE_DIR: str = "."  # 源目录（PDF所在），默认当前目录
     OUTPUT_DIR: str = "./output"  # 输出目录
     EXCLUDE_DIRS: list[str] = [".git", ".venv", "__pycache__", "node_modules"]
 

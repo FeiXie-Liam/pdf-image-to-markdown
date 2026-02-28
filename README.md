@@ -59,7 +59,20 @@ cp .env.example .env
 
 ## 使用方法
 
-安装后可使用 `pdf2md` 命令（源码安装用户使用 `uv run python main.py`）：
+安装后可使用 `pdf2md` 命令（源码安装用户使用 `uv run python -m pdf2md.cli`）：
+
+### 全局参数
+
+所有命令支持以下全局参数：
+
+```bash
+# 指定输入和输出目录
+pdf2md -i /path/to/pdfs -o /path/to/output convert-all
+
+# 默认值
+# 输入目录: 当前目录 (.)
+# 输出目录: ./output
+```
 
 ### 扫描目录结构
 
@@ -149,7 +162,7 @@ pdf2md convert-all --help
 |------|------|--------|
 | `OLLAMA_HOST` | Ollama服务地址 | `http://localhost:11434` |
 | `OLLAMA_MODEL` | 多模态模型名称 | `qwen3-vl:8b` |
-| `SOURCE_DIR` | PDF源目录 | `../` |
+| `SOURCE_DIR` | PDF源目录 | `.` (当前目录) |
 | `OUTPUT_DIR` | Markdown输出目录 | `./output` |
 | `IMAGE_DPI` | PDF提取图片DPI | `150` |
 | `MAX_WORKERS` | 并发处理数 | `3` |

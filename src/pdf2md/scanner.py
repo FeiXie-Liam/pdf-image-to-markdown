@@ -15,9 +15,9 @@ console = Console()
 class Scanner:
     """目录扫描器"""
 
-    def __init__(self, source_dir: Optional[str] = None):
+    def __init__(self, source_dir: Optional[str] = None, output_dir: Optional[str] = None):
         self.source_dir = Path(source_dir or settings.SOURCE_DIR).resolve()
-        self.output_dir = Path(settings.OUTPUT_DIR).resolve()
+        self.output_dir = Path(output_dir or settings.OUTPUT_DIR).resolve()
         self.exclude_dirs = settings.EXCLUDE_DIRS
 
     def scan_directory(self) -> dict:

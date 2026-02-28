@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pdf-to-markdown"
+name = "fei-pdf2md"
 version = "0.1.0"
 description = "PDF教程文档转Markdown自动化工具，使用Ollama多模态模型进行OCR识别"
 readme = "README.md"

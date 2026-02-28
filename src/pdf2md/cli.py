@@ -103,11 +103,17 @@ def convert(
 def convert_all(
     workers: int = typer.Option(settings.MAX_WORKERS, "-w", "--workers", help="并发数"),
     resume: bool = typer.Option(True, "--resume/--no-resume", help="是否断点续传"),
+    debug: bool = typer.Option(False, "-d", "--debug", help="Debug模式：实时流式输出模型响应（自动使用单线程）"),
 ):
     """批量转换所有PDF文件"""
     scanner = Scanner()
     converter = Converter()
     output_manager = OutputManager()
+
+    # debug模式强制使用单线程，避免输出混乱
+    if debug:
+        workers = 1
+        console.print("[yellow]Debug模式：使用单线程处理[/yellow]")
 
     # 检查Ollama连接
     if not converter.check_connection():
@@ -138,7 +144,7 @@ def convert_all(
             relative = pdf_path.relative_to(scanner.source_dir)
             category = relative.parts[0] if len(relative.parts) > 1 else ""
 
-            markdown = converter.convert_pdf(pdf_path, category, show_progress=False)
+            markdown = converter.convert_pdf(pdf_path, category, show_progress=not debug, debug=debug)
             if not markdown:
                 return pdf_path, False, "转换结果为空"
 

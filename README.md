@@ -18,10 +18,19 @@
 
 ## 快速开始
 
-### 1. 安装依赖
+### 1. 安装
+
+**方式一：通过 pip 安装（推荐）**
 
 ```bash
-cd codes
+pip install fei-pdf2md
+```
+
+**方式二：从源码安装**
+
+```bash
+git clone https://github.com/FeiXie-Liam/pdf-image-to-markdown.git
+cd pdf-image-to-markdown/codes
 uv sync
 ```
 
@@ -50,10 +59,12 @@ cp .env.example .env
 
 ## 使用方法
 
+安装后可使用 `pdf2md` 命令（源码安装用户使用 `uv run python main.py`）：
+
 ### 扫描目录结构
 
 ```bash
-uv run python main.py scan
+pdf2md scan
 ```
 
 输出示例：
@@ -71,38 +82,38 @@ uv run python main.py scan
 ### 转换单个PDF
 
 ```bash
-uv run python main.py convert "新手入门/FireShot Capture 051 - xxx.pdf"
+pdf2md convert "新手入门/FireShot Capture 051 - xxx.pdf"
 ```
 
 ### 批量转换所有PDF
 
 ```bash
 # 默认使用3个并发
-uv run python main.py convert-all
+pdf2md convert-all
 
 # 指定并发数
-uv run python main.py convert-all --workers 5
+pdf2md convert-all --workers 5
 
 # 禁用断点续传（重新处理所有文件）
-uv run python main.py convert-all --no-resume
+pdf2md convert-all --no-resume
 ```
 
 ### 生成索引文件
 
 ```bash
-uv run python main.py index
+pdf2md index
 ```
 
 ### 检查Ollama服务状态
 
 ```bash
-uv run python main.py check
+pdf2md check
 ```
 
 ### 查看统计信息
 
 ```bash
-uv run python main.py stats
+pdf2md stats
 ```
 
 输出示例：
@@ -119,9 +130,20 @@ uv run python main.py stats
 └─────────────┴──────┘
 ```
 
+### 查看帮助
+
+```bash
+pdf2md --help
+pdf2md convert-all --help
+```
+
 ## 配置说明
 
-环境变量配置（`.env` 文件）：
+**pip 安装用户**：在运行目录创建 `.env` 文件或直接设置环境变量。
+
+**源码安装用户**：可复制 `.env.example` 到 `.env` 进行配置。
+
+环境变量配置：
 
 | 变量 | 说明 | 默认值 |
 |------|------|--------|
@@ -131,6 +153,22 @@ uv run python main.py stats
 | `OUTPUT_DIR` | Markdown输出目录 | `./output` |
 | `IMAGE_DPI` | PDF提取图片DPI | `150` |
 | `MAX_WORKERS` | 并发处理数 | `3` |
+
+**示例配置**（pip 安装用户）：
+
+```bash
+# 创建 .env 文件
+cat > .env << 'EOF'
+OLLAMA_HOST=http://localhost:11434
+OLLAMA_MODEL=qwen3-vl:8b
+SOURCE_DIR=/path/to/your/pdf/files
+OUTPUT_DIR=/path/to/output
+EOF
+
+# 或直接设置环境变量
+export SOURCE_DIR=/path/to/your/pdf/files
+export OUTPUT_DIR=/path/to/output
+```
 
 ## 输出格式
 
@@ -197,7 +235,7 @@ ollama pull qwen3-vl:8b
 
 ### Q: 转换速度慢？
 
-- 增加并发数：`uv run python main.py convert-all --workers 5`
+- 增加并发数：`pdf2md convert-all --workers 5`
 - 使用GPU加速的Ollama服务
 - 使用更快的模型（如较小参数量的模型）
 
@@ -205,7 +243,7 @@ ollama pull qwen3-vl:8b
 
 默认启用断点续传，直接运行：
 ```bash
-uv run python main.py convert-all
+pdf2md convert-all
 ```
 
 ## 依赖 
